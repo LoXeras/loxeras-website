@@ -1,2 +1,2 @@
 # loxeras-website
-Website for myself written in python
+Website for myself built with Hugo

@@ -1,0 +1,23 @@
+baseURL: http://loxeras.com/
+languageCode: en-us
+title: LoXeras
+theme: "PaperMod"
+enableEmoji: ture
+params:
+  profileMode:
+    enabled: true
+    title: "LoXeras"
+    subtitle: "DevOps Engineer | Hacker | Crypto Enthusiast"
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Placeholder_no_text.svg/1200px-Placeholder_no_text.svg.png" # optional
+    imageTitle: "<title of image as alt>"
+    imageWidth: 140
+    imageHeight: 140
+  socialIcons: 
+    - name: github
+      url: "https://github.com/loxeras"
+    - name: gitlab
+      url: "https://gitlab.com/loxeras"
+    - name: email
+      url: "me@loxeras.com"
+    - name: kofi
+      url: "me@loxeras.com"
