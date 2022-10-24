@@ -6,18 +6,46 @@ enableEmoji: ture
 params:
   profileMode:
     enabled: true
-    title: "LoXeras"
-    subtitle: "DevOps Engineer | Hacker | Crypto Enthusiast"
+    title: "LoXeras" # optional default will be site title
+    subtitle: "DevOps Engineer | Crypto Enthusiast | IoT Wizard"
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Placeholder_no_text.svg/1200px-Placeholder_no_text.svg.png" # optional
-    imageTitle: "<title of image as alt>"
-    imageWidth: 140
-    imageHeight: 140
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 140 # custom size
+    imageHeight: 140 # custom size
+    buttons:
+      #- name: Archive
+      #  url: "/archive"
+      #- name: Posts
+      #  url: "posts/"
   socialIcons: 
     - name: github
       url: "https://github.com/loxeras"
     - name: gitlab
       url: "https://gitlab.com/loxeras"
     - name: email
-      url: "me@loxeras.com"
+      url: "mailto:me@loxeras.com"
     - name: kofi
       url: "me@loxeras.com"
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 5
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: Archive
+      name: Archive
+      url: /archive
+      weight: 30
+#    - identifier: example
+#      name: example.org
+#      url: https://example.org
+#      weight: 30
+
